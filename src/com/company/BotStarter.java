@@ -12,7 +12,7 @@ public class BotStarter {
     public static String prefix = ".";
 
     public static void main(String[] args) throws LoginException {
-        jda = JDABuilder.createDefault("OTcwOTUwNzA4OTA2MDYxODU1.GssEPX.tEeLW3dh0pGZiA6hoPSziYFJhNdmKnyHRhiFG0").build();
+        jda = JDABuilder.createDefault("REPLACEWITHYOURTOKEN").build();
 
         jda.getPresence().setStatus(OnlineStatus.DO_NOT_DISTURB);
         jda.getPresence().setActivity(Activity.watching("Monkeys dancing"));
